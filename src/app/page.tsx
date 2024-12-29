@@ -134,6 +134,11 @@ export default function Home() {
               </div>
 
               {/* Countdown Timer */}
+              <div className="text-center mb-2">
+                <span className="text-gray-400 text-lg">
+                  Promo Berakhir Dalam:
+                </span>
+              </div>
               <div className="flex gap-2 md:gap-4 justify-center text-xl md:text-3xl font-bold my-8">
                 <div className="text-center bg-gradient-to-br from-gray-800 to-gray-900 p-3 md:p-6 rounded-xl hover:bg-gray-800 transition-all duration-300 min-w-[70px] md:min-w-[100px] shadow-lg hover:shadow-amber-400/20 transform hover:scale-105">
                   <span className="text-amber-400 text-2xl md:text-4xl">
