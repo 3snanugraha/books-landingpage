@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import Head from "next/head";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   const [timeLeft, setTimeLeft] = useState(() => {
@@ -49,30 +50,31 @@ export default function Home() {
       discount: "33%",
     },
     {
-      originalPrice: "15 Juta",
+      originalPrice: "16 Juta", 
       price: "10 Juta",
       books: "164 Judul / 164 Eksemplar",
-      discount: "33%",
+      discount: "37%",
     },
     {
-      originalPrice: "22.5 Juta",
-      price: "15 Juta",
+      originalPrice: "25 Juta",
+      price: "15 Juta", 
       books: "239 Judul / 239 Eksemplar",
-      discount: "33%",
+      discount: "40%",
     },
     {
-      originalPrice: "30 Juta",
+      originalPrice: "35 Juta",
       price: "20 Juta",
       books: "328 Judul / 328 Eksemplar",
-      discount: "33%",
+      discount: "43%",
     },
     {
-      originalPrice: "45 Juta",
+      originalPrice: "55 Juta",
       price: "30 Juta",
       books: "478 Judul / 478 Eksemplar",
-      discount: "33%",
-    },
+      discount: "45%",
+    }
   ];
+  
 
   return (
     <>
@@ -317,6 +319,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+              {/* Testimonials Section */}
+              <Testimonials />
 
               {/* CTA Section */}
               <div className="bg-amber-500 text-black rounded-2xl p-8 sm:p-12 my-16">
