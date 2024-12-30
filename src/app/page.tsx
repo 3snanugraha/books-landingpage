@@ -50,14 +50,14 @@ export default function Home() {
       discount: "33%",
     },
     {
-      originalPrice: "16 Juta", 
+      originalPrice: "16 Juta",
       price: "10 Juta",
       books: "164 Judul / 164 Eksemplar",
       discount: "37%",
     },
     {
       originalPrice: "25 Juta",
-      price: "15 Juta", 
+      price: "15 Juta",
       books: "239 Judul / 239 Eksemplar",
       discount: "40%",
     },
@@ -72,17 +72,16 @@ export default function Home() {
       price: "30 Juta",
       books: "478 Judul / 478 Eksemplar",
       discount: "45%",
-    }
+    },
   ];
-  
 
   return (
     <>
       <Head>
-        <title>Paket Buku Perpustakaan Desa | Program Dana Desa 2024</title>
+        <title>Paket Buku Perpustakaan Desa | Program Literasi Desa</title>
         <meta
           name="description"
-          content="Dapatkan paket buku perpustakaan desa berkualitas untuk Program Dana Desa 2024. Tersedia 5 paket mulai dari 5-30 Juta dengan koleksi 150-900+ buku."
+          content="Dapatkan paket buku perpustakaan desa berkualitas untuk Program Literasi Desa. Tersedia 5 paket mulai dari 5-30 Juta dengan koleksi 150-900+ buku."
         />
         <meta
           name="keywords"

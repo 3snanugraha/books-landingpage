@@ -82,7 +82,9 @@ export default function Testimonials() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === testimonials.length - (isMobile ? 1 : 3) ? 0 : prevIndex + 1
+        prevIndex === testimonials.length - (isMobile ? 1 : 3)
+          ? 0
+          : prevIndex + 1
       );
     }, 3000);
 
