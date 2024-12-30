@@ -45,36 +45,31 @@ export default function Home() {
     {
       originalPrice: "7.5 Juta",
       price: "5 Juta",
-      books: "150+ Buku",
-      suitable: "Desa Kecil",
+      books: "82 Judul / 82 Eksemplar",
       discount: "33%",
     },
     {
       originalPrice: "15 Juta",
       price: "10 Juta",
-      books: "300+ Buku",
-      suitable: "Desa Berkembang",
+      books: "164 Judul / 164 Eksemplar",
       discount: "33%",
     },
     {
       originalPrice: "22.5 Juta",
       price: "15 Juta",
-      books: "450+ Buku",
-      suitable: "Desa Maju",
+      books: "239 Judul / 239 Eksemplar",
       discount: "33%",
     },
     {
       originalPrice: "30 Juta",
       price: "20 Juta",
-      books: "600+ Buku",
-      suitable: "Desa Mandiri",
+      books: "328 Judul / 328 Eksemplar",
       discount: "33%",
     },
     {
       originalPrice: "45 Juta",
       price: "30 Juta",
-      books: "900+ Buku",
-      suitable: "Desa Metropolitan",
+      books: "478 Judul / 478 Eksemplar",
       discount: "33%",
     },
   ];
@@ -107,8 +102,8 @@ export default function Home() {
                   <div className="absolute -bottom-2 w-full h-1 bg-gradient-to-r from-amber-400 to-amber-300"></div>
                 </span>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-300 block mt-4 animate-pulse">
-                  Program Dana Desa
-                </span>
+                  Wujudkan Literasi Untuk Semua
+                </span>{" "}
               </h1>
               <div className="relative group">
                 <Image
@@ -208,9 +203,9 @@ export default function Home() {
                   <li className="flex items-center gap-3 p-3 bg-gray-800/50 rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:translate-x-2">
                     <span className="text-amber-400 text-2xl">📜</span>
                     <span>
-                      Didukung kebijakan{" "}
+                      Kebijakan pemerintah dalam{" "}
                       <span className="text-amber-400 font-bold">
-                        Kemendes PDTT 2024
+                        pengembangan Literasi desa
                       </span>{" "}
                       untuk pengembangan perpustakaan
                     </span>
@@ -251,13 +246,14 @@ export default function Home() {
                     </div>
                     <div className="space-y-3 text-gray-300">
                       <div className="flex items-center gap-2">
-                        <p className="line-through text-gray-500">
+                        <p className="line-through text-gray-500 text-lg">
                           {pkg.originalPrice}
                         </p>
-                        <span className="bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded-full">
-                          -{pkg.discount}
+                        <span className="bg-green-500 text-white text-base px-4 py-1.5 rounded-full font-bold animate-pulse">
+                          HEMAT {pkg.discount}
                         </span>
                       </div>
+
                       <p className="text-3xl font-bold text-amber-400 bg-gradient-to-r from-amber-400/10 to-transparent p-2 rounded-lg">
                         {pkg.price}
                       </p>
@@ -265,15 +261,9 @@ export default function Home() {
                         <p className="text-sm font-medium">Termasuk:</p>
                         <p className="font-medium">{pkg.books}</p>
                       </div>
-                      <div className="border-t border-gray-700 pt-3">
-                        <p className="text-amber-400/80">Ideal untuk:</p>
-                        <p className="font-semibold bg-gradient-to-r from-amber-400/20 to-transparent px-2 py-1 rounded">
-                          {pkg.suitable}
-                        </p>
-                      </div>
                     </div>
                     <a
-                      href={`https://wa.me/6281223871439?text=Halo,%20saya%20tertarik%20dengan%20paket%20${pkg.price}`}
+                      href={`https://wa.me/628157102155?text=Halo,%20saya%20tertarik%20dengan%20paket%20${pkg.price}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-6 group inline-flex items-center gap-2 bg-amber-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-amber-400 transition-all duration-300 w-full justify-center"
@@ -331,13 +321,13 @@ export default function Home() {
               {/* CTA Section */}
               <div className="bg-amber-500 text-black rounded-2xl p-8 sm:p-12 my-16">
                 <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                  Wujudkan Perpustakaan Desa Impian!
+                  Wujudkan Literasi Desa!
                 </h2>
                 <p className="mb-8">
                   Konsultasikan kebutuhan perpustakaan desa Anda dengan tim kami
                 </p>
                 <a
-                  href="https://wa.me/6281223871439?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20perpustakaan%20desa"
+                  href="https://wa.me/628157102155?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20perpustakaan%20desa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
